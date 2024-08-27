@@ -1,0 +1,38 @@
+package ProgramMedClass;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		// Konsol udprint 
+		tekst udprint = new tekst ();
+		udprint.displayInfo();
+		
+		// højde variabel
+		udprint.højde();
+		double højde = sc.nextDouble();
+		
+		// vægt variabel
+		udprint.vægt();
+		int vægt = sc.nextInt();
+		
+		// informationer på bruger
+		information data = new information (højde, vægt);
+		
+		//BMI formel
+		double slutResultat = vægt / (højde * højde);
+		
+		//Udprint tekst
+		udprint.bmiTal();
+		
+		//rund op og udprint resultat
+		double rundOp = Math.ceil(slutResultat);
+		System.out.println(rundOp);
+
+	}
+
+}
