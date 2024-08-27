@@ -1,0 +1,12 @@
+package ProgramMedClass;
+
+public class formel {
+	
+	private int vægt;
+	private int højde;
+
+	public void bmiFormel() {
+		// TODO Auto-generated method stub
+		double bmiFormel = vægt / (højde * højde);
+	}
+}
