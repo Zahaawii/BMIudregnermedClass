@@ -1,0 +1,20 @@
+package ProgramMedClass;
+
+public class tekst {
+
+	public void displayInfo() {
+		System.out.println("Vi skal bruge noget information på dig for at udregne din BMI");
+	}
+	
+	public void højde() {
+		System.out.println("Hvad er din højde");
+	}
+	
+	public void vægt() {
+		System.out.println("Hvad er din vægt");
+	}
+	
+	public void bmiTal() {
+		System.out.println("Dit BMI tal:");
+	}
+}
