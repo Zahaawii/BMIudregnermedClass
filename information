@@ -1,0 +1,13 @@
+package ProgramMedClass;
+
+public class information {
+
+	private double højde;
+	private int vægt;
+	
+	public information(double højde, int vægt) {
+		this.højde = højde;
+		this.vægt = vægt;
+		}
+}
+
